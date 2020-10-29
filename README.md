@@ -22,6 +22,7 @@ For the second subsystem, we will use Matlab's Neural Network toolbox, which int
 ### 4.1	Design Diagram of the Whole System
 ![](pics/System_flowchart.png)
 Figure 1. Design of river water quality information management and decision support system 
+
 The Figure 1. shows us the whole process of designing and building the system.
 In this project, we would use the database of different water quality parameters for every month of Lyuliang City obtained by related government department.
 The whole system consists of two subsystems: water quality information management and decision support system. The water quality information management system includes displaying a table of data according to a selected year, a piece of certain water quality information query, modification and deletion. The decision system includes water quality change trends, average value calculation function and water quality information forecasts.
@@ -31,9 +32,11 @@ Besides, the whole system has three layers. The first layer is called backstage,
 ![](pics/GUI_interface_1.png)
 
 Figure 2.  GUI interface design of system
+
 ![](pics/GUI_interface_2.png)
 
 Figure 3.  Interface of after changing parameter selection and month selection
+
 The Figure 2. shows us the interface design of the entire system and Figure 3. shows us the interface after changing parameters and other selection.
 
 The left panel contains water quality information management subsystem which is the first part of this system. The first function is that users can click on the ‘Year Selection’ dropdown to select a year and click on ‘Read Data’ button so that a table would show in bottom and users can simply inquire the data they need. As for the second function, users can select a certain parameter in the ‘Parameter Selection’ dropdown and select a certain month in the ‘Month Selection’ button, then just click on ‘Inquire Single Data’ button to obtain a certain data. If the obtained certain data has something wrong, the third function is that users input data in the numerical edited area and then click on ‘Change Data’ button and the inquired certain data would be changed.
