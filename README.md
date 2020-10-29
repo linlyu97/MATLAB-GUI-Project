@@ -28,9 +28,9 @@ The whole system consists of two subsystems: water quality information managemen
 
 Besides, the whole system has three layers. The first layer is called backstage, which mainly concludes all the algorithm in Matlab code view interface to realize all the functions of this system. The second layer is called data layer, which concludes the original water quality database, the images this system can plot and some characteristic values. As for the third layer: user layer, where users can click on buttons to realize the functions they need.
 ### 4.2	Implementation Interface
- 
+![](pics/GUI_interface_1.png)
 Figure 2.  GUI interface design of system
- 
+![](pics/GUI_interface_2.png)
 Figure 3.  Interface of after changing parameter selection and month selection
 The Figure 2. shows us the interface design of the entire system and Figure 3. shows us the interface after changing parameters and other selection.
 
