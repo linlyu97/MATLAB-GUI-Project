@@ -20,7 +20,7 @@ For the whole system, we are going to use Matlab app designer. App designer prov
 For the second subsystem, we will use Matlab's Neural Network toolbox, which integrates many BP optimization algorithms. 
 ## 4.	Implementation
 ### 4.1	Design Diagram of the Whole System
-![Alt text](pics/System_flowchart?raw=true "Title")
+![](pics/System_flowchart?raw=true "Title")
 Figure 1. Design of river water quality information management and decision support system 
 The Figure 1. shows us the whole process of designing and building the system.
 In this project, we would use the database of different water quality parameters for every month of Lyuliang City obtained by related government department.
